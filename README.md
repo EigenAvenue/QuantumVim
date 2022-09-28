@@ -2,8 +2,8 @@
 
 ## Structure tree
 
-<div align="center">
-  <img width="180" height="180" src="./tree.png">
+<div align="left">
+  <img width="280" height="280" src="./tree.png">
   <br />
   <figcaption>Fig.1 - Global structure.</figcaption>
 </div>
