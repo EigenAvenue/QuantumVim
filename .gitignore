@@ -1,7 +1,3 @@
-# Setup files
-qvim.sh
-setup.sh
-
 # Compiled Lua sources
 luac.out
 
