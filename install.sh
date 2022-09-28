@@ -4,11 +4,12 @@ CURR=$( pwd )
 CONFIG=~/.config/qvim
 LINK_DIR=~/.local/bin/qvim
 DESTINATION=~/.local/share
+SRC=./qvim/lua/kernel/utility/qvim.sh
 
 setup () {
     # Handles command
-    sudo chmod +x ./qvim.sh
-    cp ${CURR}/qvim.sh ${DESTINATION}
+    sudo chmod +x ${SRC}
+    cp ${SRC} ${DESTINATION}
 
     # Symlinks command 'qvim'
     if [[ -L ${LINK_DIR} ]]; then
