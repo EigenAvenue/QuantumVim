@@ -1,4 +1,4 @@
-# QuantumVim !
+# QuantumVim
 
 ## Structure tree
 
